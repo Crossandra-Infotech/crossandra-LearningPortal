@@ -1,4 +1,17 @@
-.navbar-nav{
-    padding-left:30px;
-   padding-right:30px;
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.footer{
+    margin-bottom: 10px;
 }
